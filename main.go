@@ -4,6 +4,13 @@ import "fmt"
 import "github.com/iamken1204/leetcode/problems"
 
 func main() {
-	// q := 120
-	fmt.Println("Ans:", problems.GetSum(1, 99))
+
+	bbb := &problems.TreeNode{}
+	aaa := &problems.TreeNode{Right: bbb}
+	node := &problems.TreeNode{
+		Right: aaa,
+	}
+
+	fmt.Println(problems.MaxDepth(node))
+
 }
