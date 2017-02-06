@@ -5,20 +5,9 @@ import "github.com/iamken1204/leetcode/problems"
 
 func main() {
 
-	nodes := &problems.TreeNode{
-		Val: 2,
-		Left: &problems.TreeNode{
-			Val:   1,
-			Left:  nil,
-			Right: nil,
-		},
-		Right: &problems.TreeNode{
-			Val:   3,
-			Left:  nil,
-			Right: nil,
-		},
-	}
+	children := []int{1, 2, 3, 5}
+	cookies := []int{3, 1, 2}
 
-	fmt.Println(problems.InvertTree(nodes))
+	fmt.Println(problems.FindContentChildren(children, cookies))
 
 }
