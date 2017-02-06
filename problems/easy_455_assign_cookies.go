@@ -14,7 +14,7 @@ func FindContentChildren(g []int, s []int) int {
 	var idxG int
 	var idxS int
 	for idxG < len(g) && idxS < len(s) {
-		if idxS >= idxG {
+		if s[idxS] >= g[idxG] {
 			idxG++
 			idxS++
 		} else {

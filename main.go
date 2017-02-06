@@ -5,9 +5,9 @@ import "github.com/iamken1204/leetcode/problems"
 
 func main() {
 
-	children := []int{10, 9, 8, 7}
-	cookies := []int{7, 8}
+	numbers := []int{-1, 0}
+	target := -1
 
-	fmt.Println(problems.FindContentChildren(children, cookies))
+	fmt.Println(problems.TwoSum2(numbers, target))
 
 }
