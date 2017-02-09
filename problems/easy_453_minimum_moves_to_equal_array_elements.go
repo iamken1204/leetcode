@@ -4,7 +4,7 @@ package problems
 // Easy 453. Minimum Moves to Equal Array Elements
 // https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
 //
-// As for `A Step`:
+// As for `One Step`:
 // Add 1 to all numbers except nums.Max === Minus 1 to a single number which is not nums.Min
 func MinMoves(nums []int) int {
 	var res int
