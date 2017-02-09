@@ -5,8 +5,8 @@ import "github.com/iamken1204/leetcode/problems"
 
 func main() {
 
-	nums := []int{0, 0, 0, 1, 2, 3, 4}
-	problems.MoveZeroes(nums)
-	fmt.Println(nums)
+	nums := []int{1, 2, 3}
+	r := problems.MinMoves(nums)
+	fmt.Println(r)
 
 }
