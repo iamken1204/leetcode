@@ -21,12 +21,4 @@ func MaxProfit(prices []int) int {
 	}
 
 	return profit
-	// var maxCur int
-	// var res int
-	// for i := 1; i < len(prices); i++ {
-	// 	maxCur += prices[i] - prices[i-1]
-	// 	maxCur = int(math.Max(0, float64(maxCur)))
-	// 	res = int(math.Max(float64(maxCur), float64(res)))
-	// }
-	// return res
 }
