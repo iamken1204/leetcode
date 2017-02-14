@@ -5,8 +5,7 @@ import "github.com/iamken1204/leetcode/problems"
 
 func main() {
 
-	ransomNote := "aa"
-	magazine := "aab"
-	fmt.Println(problems.CanConstruct(ransomNote, magazine))
+	prices := []int{7, 1, 4, 3, 6}
+	fmt.Println(problems.MaxProfit(prices))
 
 }
